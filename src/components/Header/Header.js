@@ -34,6 +34,7 @@ const Header = () => {
       <nav style={{ display: "flex", justifyContent: "center", gap: "10px" }}>
         <CustomLink to="/">Home</CustomLink>
         <CustomLink to="/friends">Friends</CustomLink>
+        <CustomLink to="/posts">Posts</CustomLink>
         <CustomLink to="/about-us">About Us</CustomLink>
       </nav>
     </div>

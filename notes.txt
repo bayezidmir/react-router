@@ -1,0 +1,13 @@
+React Router
+step 1: create react app
+step 2: install react router
+step 3: make changes to index.js, keep the <App /> component inside <BrowserRouter>. ex: 
+ <BrowserRouter>
+      <App />
+ </BrowserRouter>
+Step 4: Keep all the component inside like this <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/home" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route> 
+        <Route path="*" element={<NotFound />}></Route> //This is to redirect for pages not 			available in the website
+      </Routes>

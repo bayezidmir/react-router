@@ -1,4 +1,5 @@
 React Router
+_________________
 step 1: create react app
 step 2: install react router
 step 3: make changes to index.js, keep the <App /> component inside <BrowserRouter>. ex: 
@@ -11,3 +12,14 @@ Step 4: Keep all the component inside like this <Routes>
         <Route path="/about" element={<About />}></Route> 
         <Route path="*" element={<NotFound />}></Route> //This is to redirect for pages not 			available in the website
       </Routes>
+
+Dynamic Navigation
+___________________
+
+to create dynamic link use 
+useNavigate and a dynamic path inside a function. however, useNavigate has to be declared outside the function. ex; const navigate=useNavigate(); const functionName=()=>{const path=`friends/${id}; navigate(path)`
+
+
+Use of Link and To to stop page reload
+______________________________________
+
